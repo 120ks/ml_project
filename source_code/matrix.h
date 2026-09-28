@@ -1,6 +1,7 @@
 #ifndef MATRIX_H
 #define MATRIX_H
 
+#include<iostream>
 #include<vector>
 
 class Neuron_layer;
@@ -23,7 +24,8 @@ class Matrix{
 
         friend class Neuron_layer;
 
-
+        void normalize(double min, double max);
+        void transponse();
 };
 
 #endif

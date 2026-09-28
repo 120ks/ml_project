@@ -14,5 +14,7 @@ double& Matrix::operator()(const size_t row, const size_t col){
     return matrix[row*cols + col];
 }
 
+//getters
 size_t Matrix::get_cols()const {return cols;}
 size_t Matrix::get_rows()const {return rows;}
+
