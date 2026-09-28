@@ -11,6 +11,7 @@ class Matrix{
         size_t rows{};
         size_t cols{};  
         std::vector<double> matrix{};
+        double(*iterF)(std::vector<double>){};
 
     public:
         explicit Matrix(const size_t row_count, const size_t col_count);
