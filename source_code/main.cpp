@@ -1,7 +1,7 @@
 #include <iostream>
 
 
-int main().cpp{
+int main(){
 
 
 return 0;
