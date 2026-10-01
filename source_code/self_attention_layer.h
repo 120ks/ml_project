@@ -5,14 +5,25 @@
 class Self_attention
 {
     private:
+        
+        size_t dims{};
         //matrices K,V,Q
-        Matrix key;
-        Matrix value;
-        Matrix query;
-        int layer_id{};
+        Matrix key{dims, dims};
+        Matrix value{dims, dims};
+        Matrix query{dims, dims};
+        const int layer_id{id_count};
     public:
-        Self_attention();
+        Self_attention(const size_t dimensions) : dims{dimensions}
+        {id_count++;}
+        Self_attention(const Self_attention &other)
+        : Self_attention(other.dims)
+        {
+        }
+        
+
+
         ~Self_attention();
+
         
     private:
         inline static int id_count{0};

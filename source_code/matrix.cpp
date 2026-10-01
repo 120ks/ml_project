@@ -9,6 +9,23 @@ Matrix::Matrix(const size_t row_count, const size_t col_count)
     
 }
 Matrix::~Matrix() = default;
+Matrix::Matrix(const Matrix &other)
+: Matrix(other.rows, other.cols)
+{
+    for(size_t r{0} ; r < other.rows ; r++){
+        for(size_t c{0} ; c < other.cols ;  c++)
+        {
+            matrix[r*cols + c] = other.matrix[r*cols + c];
+        }
+    }
+}
+Matrix::Matrix(Matrix &&other) noexcept
+: rows{other.rows}
+, cols{other.cols}
+, matrix{std::move(other.matrix)}
+{
+
+}
 
 //operators
 double& Matrix::operator()(const size_t row, const size_t col){
@@ -16,6 +33,16 @@ double& Matrix::operator()(const size_t row, const size_t col){
 }
 double Matrix::operator()(const size_t row, const size_t col)const {
     return matrix[row*cols + col];
+}
+Matrix& Matrix::operator=(Matrix other)noexcept
+{
+    if(this == &other){
+        return *this;
+    }
+    std::swap(matrix, other.matrix);
+    rows = other.rows;
+    cols = other.cols;
+    return *this;
 }
 
 

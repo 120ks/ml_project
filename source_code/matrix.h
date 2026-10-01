@@ -16,12 +16,16 @@ class Matrix{
         std::vector<double> matrix{};
 
     public:
+        //constructors
         explicit Matrix(const size_t row_count, const size_t col_count);
+        Matrix(Matrix const &other);
+        Matrix(Matrix &&other);
         ~Matrix() = default;
+
 
         double& operator()(const size_t row, const size_t col); //indexing
         double operator()(const size_t row, const size_t col)const; //indexing
-        
+        Matrix& operator=(Matrix other) noexcept;
 
         size_t get_cols()const;
         size_t get_rows()const;
