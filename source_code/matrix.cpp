@@ -46,11 +46,12 @@ Matrix& Matrix::operator=(Matrix other)noexcept
 }
 
 
+
 //getters
 size_t Matrix::get_cols()const {return cols;}
 size_t Matrix::get_rows()const {return rows;}
 
-void Matrix::transpose(){
+Matrix Matrix::transpose(){
     std::vector<double> transposed(cols*rows);
     for(size_t c{} ; c<cols; c++){
         for(size_t r{} ; r<rows ; r++){
@@ -63,14 +64,12 @@ void Matrix::transpose(){
 
 //friend funktions
 
-Matrix&& operator*(const Matrix &m1, const Matrix &m2){
-
+Matrix operator*(const Matrix &m1, const Matrix &m2){
     if(m1.rows != m2.cols){
         throw("matrix_multiplication_row1!=col2");
     }
     Matrix m3(m1.rows, m2.cols);
     for(size_t r1{} ; r1 < m1.rows ; r1++){
-    
         for(size_t c2 ; c2 <m2.cols ; c2++){
             double sum{0};
             for(size_t r2{} ; r2<m2.rows ; r2++){
@@ -79,6 +78,6 @@ Matrix&& operator*(const Matrix &m1, const Matrix &m2){
         m3(r1, c2) = sum;
         }
     }
-    return std::move(m3);
+    return m3;
 }
 

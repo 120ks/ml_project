@@ -1,0 +1,80 @@
+ml project
+
+
+
+    input output //handles overall training pipeline
+    |   
+    |____input pipeline // handles the overall gathering of text
+        |
+        |____scraper //gathers the data from the web in raw text
+        |
+        |____parser //parser sentences to be semantically valid
+            |
+            |____tokenizer   
+        |    
+        |__input creator
+    |
+    |____bridge //handles the transfer of data and its deletion
+    |
+    |____ml pipeline // handles the training of model
+        |
+        |____model layer // ties all the matrices etc together
+            |
+            |____input dimension trainer //changes the actual dimension of tokens
+            |   |
+            |____self attention //handles k, q, v and scaling 
+            |   |
+            |____feedforward //handles feedforward part of transformer
+                |
+                |____Layer class //handles weight / gradiant saving and matrix manipulation
+                |
+                    |____Matrix //hold the actual numbers and relevant operators for doing dot products
+    |
+    |____brige act 2 //handles the saving of model
+
+
+OBJECTIVE
+
+    the overall goal is to do as little heavy and memory straining saving, the data follows a pipeline, in which
+    the input vector is loaded directly into heap, with size estimate using 512 dimensions per token which would result in
+    50 000 * 512 doubles and 50 000 unsigned int that leads to roughly 0.2gb of memory allocated for just the token matrix
+
+
+THE INPUT OUTPUT PIPELINE
+    The input_output handles the creation of of data and converts text into strings, it acts as its own unit utilizing multithreading.
+    the first objective is reading the internet and saving a chunk of text, the text is parsed trough and any inforamation such as links
+    photo sources or other seemingly random sequence of characters is discarded. The final "clean text" is then found on the
+    token library, where if the word exists, its vector, and index is saved, if not the word is added and a vector of 512 doubles is created
+    for it.
+
+    it is saved in a train example set, of sequence_length * dimensions vector, with a vector for index into an input object the input object,
+    saved into a "line" container object.
+    the line is "moved" by the bridging engine so that every input object goes to the ml pipeline.
+
+
+BRIDGING engine
+    handles the transfer of information between the two main parts. It ensures that the input object line runs smoothly and shuts one pipeline
+    down if the other is lagging behind. It acts as the programs temporary memory as it is the place where memory is stored until it its
+    used or removed. The transfer here is almost entirely done by move semantics.
+    bridging engine also automatically triggers a save point after x iterations.
+
+
+THE ML PIPELINE
+    The ml pipeline is created to take in input objects to its input dimension trainer that exists outside the
+    stack trainer it holds a shared ptr with the input creator to the 50 000 * 512 + index vector table for ease of access.
+    it conducts the necessary seperation and saving of vector index data and applies a positional encoding vector to it. The input trainer 
+    passes the encoded vector to the model layer
+
+    the stack like training algorithm that goes trough recursively each layer and loads the stack as it does forward prop. 
+    after a prediction is made in the last layer the loss is calculated. the stack unwinding triggers
+    and goes backwards all the layers triggering the gradient calculation.
+
+
+
+
+
+
+            
+
+
+        

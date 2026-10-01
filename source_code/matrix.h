@@ -5,7 +5,7 @@
 #include<vector>
 
 
-class Neuron_layer;
+class Self_attention;
 
 
 class Matrix{
@@ -30,13 +30,14 @@ class Matrix{
         size_t get_cols()const;
         size_t get_rows()const;
 
-        void transpose();
+        Matrix transpose();
 
     private:
         void initialize();
 
         friend class Self_attention;
-        friend Matrix&& operator*(const Matrix &m1, const Matrix &m2);
+        friend Matrix operator*(const Matrix &m1, const Matrix &m2);
+        friend void softmax(Matrix &mx);
 };
 
 #endif
