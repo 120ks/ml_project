@@ -1,5 +1,5 @@
 #include"matrix.h"
-
+#include <cassert>
 //constructors
 Matrix::Matrix(const size_t row_count, const size_t col_count)
 : rows{row_count}
@@ -8,7 +8,7 @@ Matrix::Matrix(const size_t row_count, const size_t col_count)
 {
     
 }
-Matrix::~Matrix() = default;
+
 Matrix::Matrix(const Matrix &other)
 : Matrix(other.rows, other.cols)
 {
@@ -45,22 +45,20 @@ Matrix& Matrix::operator=(Matrix other)noexcept
     return *this;
 }
 
+Matrix& Matrix::operator*=(const Matrix &other){
+    assert(cols == other.rows && "dimension mismatch");
+    *this = (*this) * other; 
+}
+
 
 
 //getters
 size_t Matrix::get_cols()const {return cols;}
 size_t Matrix::get_rows()const {return rows;}
 
-Matrix Matrix::transpose(){
-    std::vector<double> transposed(cols*rows);
-    for(size_t c{} ; c<cols; c++){
-        for(size_t r{} ; r<rows ; r++){
-            transposed[c*rows + r] = matrix[r*cols + c];
-        }
-    }
-    std::swap(cols, rows);
-    matrix = std::move(transposed);
-}
+
+
+
 
 //friend funktions
 
@@ -81,3 +79,24 @@ Matrix operator*(const Matrix &m1, const Matrix &m2){
     return m3;
 }
 
+Matrix transpose(const Matrix mx){
+    Matrix transposed{mx.cols, mx.rows};
+    for(size_t c{} ; c<mx.cols; c++){
+        for(size_t r{} ; r<mx.rows ; r++){
+            transposed(c, r)= mx(r, c);
+        }
+    }
+    return transposed;
+
+}Matrix direct_multiplication(const Matrix &first, const Matrix &second){
+    assert(first.rows == second.rows && "row mismatch"); //debug
+    assert(first.cols == second.cols && "col mismatch"); //debug
+    
+    Matrix third{first.rows, second.rows};
+    for(size_t r{0} ; r<first.rows; r++){
+        for(size_t c{0} ; c<first.cols; c++){
+            third(r, c) = first(r, c)*second(r, c);
+        }
+    }
+    return third;
+}

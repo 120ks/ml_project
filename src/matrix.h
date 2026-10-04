@@ -6,7 +6,7 @@
 
 
 class Self_attention;
-
+class Feed_forward;
 
 class Matrix{
     
@@ -19,25 +19,29 @@ class Matrix{
         //constructors
         explicit Matrix(const size_t row_count, const size_t col_count);
         Matrix(Matrix const &other);
-        Matrix(Matrix &&other);
+        Matrix(Matrix &&other)noexcept;
         ~Matrix() = default;
 
 
         double& operator()(const size_t row, const size_t col); //indexing
         double operator()(const size_t row, const size_t col)const; //indexing
         Matrix& operator=(Matrix other) noexcept;
+        Matrix& operator*=(const Matrix &other);
 
         size_t get_cols()const;
         size_t get_rows()const;
 
-        Matrix transpose();
-
     private:
         void initialize();
 
-        friend class Self_attention;
+        friend Matrix direct_multiplication(const Matrix &first, const Matrix &second);
+        friend Matrix transpose(const Matrix mx);
+        
         friend Matrix operator*(const Matrix &m1, const Matrix &m2);
         friend void softmax(Matrix &mx);
+
+        friend class Self_attention;
+        friend class Feed_forward;
 };
 
 #endif

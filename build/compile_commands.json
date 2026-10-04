@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Users/ppako/Documents/projects/ml_project/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles\\ml_project.dir\\includes_CXX.rsp -g -o CMakeFiles\\ml_project.dir\\main.cpp.obj -c C:\\Users\\ppako\\Documents\\projects\\ml_project\\main.cpp",
+  "file": "C:/Users/ppako/Documents/projects/ml_project/main.cpp",
+  "output": "CMakeFiles/ml_project.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/ppako/Documents/projects/ml_project/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles\\ml_project.dir\\includes_CXX.rsp -g -o CMakeFiles\\ml_project.dir\\src\\matrix.cpp.obj -c C:\\Users\\ppako\\Documents\\projects\\ml_project\\src\\matrix.cpp",
+  "file": "C:/Users/ppako/Documents/projects/ml_project/src/matrix.cpp",
+  "output": "CMakeFiles/ml_project.dir/src/matrix.cpp.obj"
+},
+{
+  "directory": "C:/Users/ppako/Documents/projects/ml_project/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles\\ml_project.dir\\includes_CXX.rsp -g -o CMakeFiles\\ml_project.dir\\src\\self_attention_layer.cpp.obj -c C:\\Users\\ppako\\Documents\\projects\\ml_project\\src\\self_attention_layer.cpp",
+  "file": "C:/Users/ppako/Documents/projects/ml_project/src/self_attention_layer.cpp",
+  "output": "CMakeFiles/ml_project.dir/src/self_attention_layer.cpp.obj"
+},
+{
+  "directory": "C:/Users/ppako/Documents/projects/ml_project/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles\\ml_project.dir\\includes_CXX.rsp -g -o CMakeFiles\\ml_project.dir\\src\\feed_forward.cpp.obj -c C:\\Users\\ppako\\Documents\\projects\\ml_project\\src\\feed_forward.cpp",
+  "file": "C:/Users/ppako/Documents/projects/ml_project/src/feed_forward.cpp",
+  "output": "CMakeFiles/ml_project.dir/src/feed_forward.cpp.obj"
+}
+]
