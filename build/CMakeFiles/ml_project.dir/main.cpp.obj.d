@@ -157,10 +157,4 @@ CMakeFiles/ml_project.dir/main.cpp.obj: \
  C:/msys64/mingw64/include/c++/16.1.0/bits/ostream_print.h \
  C:/msys64/mingw64/include/c++/16.1.0/bits/ostream.tcc \
  C:/msys64/mingw64/include/c++/16.1.0/istream \
- C:/msys64/mingw64/include/c++/16.1.0/bits/istream.tcc \
- C:\Users\ppako\Documents\projects\ml_project\src/matrix.h \
- C:/msys64/mingw64/include/c++/16.1.0/vector \
- C:/msys64/mingw64/include/c++/16.1.0/bits/stl_uninitialized.h \
- C:/msys64/mingw64/include/c++/16.1.0/bits/stl_vector.h \
- C:/msys64/mingw64/include/c++/16.1.0/bits/stl_bvector.h \
- C:/msys64/mingw64/include/c++/16.1.0/bits/vector.tcc
+ C:/msys64/mingw64/include/c++/16.1.0/bits/istream.tcc

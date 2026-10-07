@@ -86,35 +86,35 @@ CMakeFiles/ml_project.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ml_project.dir/main.cpp.s"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ppako\Documents\projects\ml_project\main.cpp -o CMakeFiles\ml_project.dir\main.cpp.s
 
-CMakeFiles/ml_project.dir/src/matrix.cpp.obj: CMakeFiles/ml_project.dir/flags.make
-CMakeFiles/ml_project.dir/src/matrix.cpp.obj: CMakeFiles/ml_project.dir/includes_CXX.rsp
-CMakeFiles/ml_project.dir/src/matrix.cpp.obj: C:/Users/ppako/Documents/projects/ml_project/src/matrix.cpp
-CMakeFiles/ml_project.dir/src/matrix.cpp.obj: CMakeFiles/ml_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ppako\Documents\projects\ml_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ml_project.dir/src/matrix.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ml_project.dir/src/matrix.cpp.obj -MF CMakeFiles\ml_project.dir\src\matrix.cpp.obj.d -o CMakeFiles\ml_project.dir\src\matrix.cpp.obj -c C:\Users\ppako\Documents\projects\ml_project\src\matrix.cpp
+CMakeFiles/ml_project.dir/src/matrix/matrix.cpp.obj: CMakeFiles/ml_project.dir/flags.make
+CMakeFiles/ml_project.dir/src/matrix/matrix.cpp.obj: CMakeFiles/ml_project.dir/includes_CXX.rsp
+CMakeFiles/ml_project.dir/src/matrix/matrix.cpp.obj: C:/Users/ppako/Documents/projects/ml_project/src/matrix/matrix.cpp
+CMakeFiles/ml_project.dir/src/matrix/matrix.cpp.obj: CMakeFiles/ml_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ppako\Documents\projects\ml_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ml_project.dir/src/matrix/matrix.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ml_project.dir/src/matrix/matrix.cpp.obj -MF CMakeFiles\ml_project.dir\src\matrix\matrix.cpp.obj.d -o CMakeFiles\ml_project.dir\src\matrix\matrix.cpp.obj -c C:\Users\ppako\Documents\projects\ml_project\src\matrix\matrix.cpp
 
-CMakeFiles/ml_project.dir/src/matrix.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ml_project.dir/src/matrix.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ppako\Documents\projects\ml_project\src\matrix.cpp > CMakeFiles\ml_project.dir\src\matrix.cpp.i
+CMakeFiles/ml_project.dir/src/matrix/matrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ml_project.dir/src/matrix/matrix.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ppako\Documents\projects\ml_project\src\matrix\matrix.cpp > CMakeFiles\ml_project.dir\src\matrix\matrix.cpp.i
 
-CMakeFiles/ml_project.dir/src/matrix.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ml_project.dir/src/matrix.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ppako\Documents\projects\ml_project\src\matrix.cpp -o CMakeFiles\ml_project.dir\src\matrix.cpp.s
+CMakeFiles/ml_project.dir/src/matrix/matrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ml_project.dir/src/matrix/matrix.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ppako\Documents\projects\ml_project\src\matrix\matrix.cpp -o CMakeFiles\ml_project.dir\src\matrix\matrix.cpp.s
 
-CMakeFiles/ml_project.dir/src/self_attention_layer.cpp.obj: CMakeFiles/ml_project.dir/flags.make
-CMakeFiles/ml_project.dir/src/self_attention_layer.cpp.obj: CMakeFiles/ml_project.dir/includes_CXX.rsp
-CMakeFiles/ml_project.dir/src/self_attention_layer.cpp.obj: C:/Users/ppako/Documents/projects/ml_project/src/self_attention_layer.cpp
-CMakeFiles/ml_project.dir/src/self_attention_layer.cpp.obj: CMakeFiles/ml_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ppako\Documents\projects\ml_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ml_project.dir/src/self_attention_layer.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ml_project.dir/src/self_attention_layer.cpp.obj -MF CMakeFiles\ml_project.dir\src\self_attention_layer.cpp.obj.d -o CMakeFiles\ml_project.dir\src\self_attention_layer.cpp.obj -c C:\Users\ppako\Documents\projects\ml_project\src\self_attention_layer.cpp
+CMakeFiles/ml_project.dir/src/matrix/matrix_operations.cpp.obj: CMakeFiles/ml_project.dir/flags.make
+CMakeFiles/ml_project.dir/src/matrix/matrix_operations.cpp.obj: CMakeFiles/ml_project.dir/includes_CXX.rsp
+CMakeFiles/ml_project.dir/src/matrix/matrix_operations.cpp.obj: C:/Users/ppako/Documents/projects/ml_project/src/matrix/matrix_operations.cpp
+CMakeFiles/ml_project.dir/src/matrix/matrix_operations.cpp.obj: CMakeFiles/ml_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ppako\Documents\projects\ml_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ml_project.dir/src/matrix/matrix_operations.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ml_project.dir/src/matrix/matrix_operations.cpp.obj -MF CMakeFiles\ml_project.dir\src\matrix\matrix_operations.cpp.obj.d -o CMakeFiles\ml_project.dir\src\matrix\matrix_operations.cpp.obj -c C:\Users\ppako\Documents\projects\ml_project\src\matrix\matrix_operations.cpp
 
-CMakeFiles/ml_project.dir/src/self_attention_layer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ml_project.dir/src/self_attention_layer.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ppako\Documents\projects\ml_project\src\self_attention_layer.cpp > CMakeFiles\ml_project.dir\src\self_attention_layer.cpp.i
+CMakeFiles/ml_project.dir/src/matrix/matrix_operations.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ml_project.dir/src/matrix/matrix_operations.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ppako\Documents\projects\ml_project\src\matrix\matrix_operations.cpp > CMakeFiles\ml_project.dir\src\matrix\matrix_operations.cpp.i
 
-CMakeFiles/ml_project.dir/src/self_attention_layer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ml_project.dir/src/self_attention_layer.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ppako\Documents\projects\ml_project\src\self_attention_layer.cpp -o CMakeFiles\ml_project.dir\src\self_attention_layer.cpp.s
+CMakeFiles/ml_project.dir/src/matrix/matrix_operations.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ml_project.dir/src/matrix/matrix_operations.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ppako\Documents\projects\ml_project\src\matrix\matrix_operations.cpp -o CMakeFiles\ml_project.dir\src\matrix\matrix_operations.cpp.s
 
 CMakeFiles/ml_project.dir/src/feed_forward.cpp.obj: CMakeFiles/ml_project.dir/flags.make
 CMakeFiles/ml_project.dir/src/feed_forward.cpp.obj: CMakeFiles/ml_project.dir/includes_CXX.rsp
@@ -131,25 +131,59 @@ CMakeFiles/ml_project.dir/src/feed_forward.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ml_project.dir/src/feed_forward.cpp.s"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ppako\Documents\projects\ml_project\src\feed_forward.cpp -o CMakeFiles\ml_project.dir\src\feed_forward.cpp.s
 
+CMakeFiles/ml_project.dir/src/matrix/matrix_functions.cpp.obj: CMakeFiles/ml_project.dir/flags.make
+CMakeFiles/ml_project.dir/src/matrix/matrix_functions.cpp.obj: CMakeFiles/ml_project.dir/includes_CXX.rsp
+CMakeFiles/ml_project.dir/src/matrix/matrix_functions.cpp.obj: C:/Users/ppako/Documents/projects/ml_project/src/matrix/matrix_functions.cpp
+CMakeFiles/ml_project.dir/src/matrix/matrix_functions.cpp.obj: CMakeFiles/ml_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ppako\Documents\projects\ml_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ml_project.dir/src/matrix/matrix_functions.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ml_project.dir/src/matrix/matrix_functions.cpp.obj -MF CMakeFiles\ml_project.dir\src\matrix\matrix_functions.cpp.obj.d -o CMakeFiles\ml_project.dir\src\matrix\matrix_functions.cpp.obj -c C:\Users\ppako\Documents\projects\ml_project\src\matrix\matrix_functions.cpp
+
+CMakeFiles/ml_project.dir/src/matrix/matrix_functions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ml_project.dir/src/matrix/matrix_functions.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ppako\Documents\projects\ml_project\src\matrix\matrix_functions.cpp > CMakeFiles\ml_project.dir\src\matrix\matrix_functions.cpp.i
+
+CMakeFiles/ml_project.dir/src/matrix/matrix_functions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ml_project.dir/src/matrix/matrix_functions.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ppako\Documents\projects\ml_project\src\matrix\matrix_functions.cpp -o CMakeFiles\ml_project.dir\src\matrix\matrix_functions.cpp.s
+
+CMakeFiles/ml_project.dir/src/matrix/matrix_container.cpp.obj: CMakeFiles/ml_project.dir/flags.make
+CMakeFiles/ml_project.dir/src/matrix/matrix_container.cpp.obj: CMakeFiles/ml_project.dir/includes_CXX.rsp
+CMakeFiles/ml_project.dir/src/matrix/matrix_container.cpp.obj: C:/Users/ppako/Documents/projects/ml_project/src/matrix/matrix_container.cpp
+CMakeFiles/ml_project.dir/src/matrix/matrix_container.cpp.obj: CMakeFiles/ml_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ppako\Documents\projects\ml_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ml_project.dir/src/matrix/matrix_container.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ml_project.dir/src/matrix/matrix_container.cpp.obj -MF CMakeFiles\ml_project.dir\src\matrix\matrix_container.cpp.obj.d -o CMakeFiles\ml_project.dir\src\matrix\matrix_container.cpp.obj -c C:\Users\ppako\Documents\projects\ml_project\src\matrix\matrix_container.cpp
+
+CMakeFiles/ml_project.dir/src/matrix/matrix_container.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ml_project.dir/src/matrix/matrix_container.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ppako\Documents\projects\ml_project\src\matrix\matrix_container.cpp > CMakeFiles\ml_project.dir\src\matrix\matrix_container.cpp.i
+
+CMakeFiles/ml_project.dir/src/matrix/matrix_container.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ml_project.dir/src/matrix/matrix_container.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ppako\Documents\projects\ml_project\src\matrix\matrix_container.cpp -o CMakeFiles\ml_project.dir\src\matrix\matrix_container.cpp.s
+
 # Object files for target ml_project
 ml_project_OBJECTS = \
 "CMakeFiles/ml_project.dir/main.cpp.obj" \
-"CMakeFiles/ml_project.dir/src/matrix.cpp.obj" \
-"CMakeFiles/ml_project.dir/src/self_attention_layer.cpp.obj" \
-"CMakeFiles/ml_project.dir/src/feed_forward.cpp.obj"
+"CMakeFiles/ml_project.dir/src/matrix/matrix.cpp.obj" \
+"CMakeFiles/ml_project.dir/src/matrix/matrix_operations.cpp.obj" \
+"CMakeFiles/ml_project.dir/src/feed_forward.cpp.obj" \
+"CMakeFiles/ml_project.dir/src/matrix/matrix_functions.cpp.obj" \
+"CMakeFiles/ml_project.dir/src/matrix/matrix_container.cpp.obj"
 
 # External object files for target ml_project
 ml_project_EXTERNAL_OBJECTS =
 
 ml_project.exe: CMakeFiles/ml_project.dir/main.cpp.obj
-ml_project.exe: CMakeFiles/ml_project.dir/src/matrix.cpp.obj
-ml_project.exe: CMakeFiles/ml_project.dir/src/self_attention_layer.cpp.obj
+ml_project.exe: CMakeFiles/ml_project.dir/src/matrix/matrix.cpp.obj
+ml_project.exe: CMakeFiles/ml_project.dir/src/matrix/matrix_operations.cpp.obj
 ml_project.exe: CMakeFiles/ml_project.dir/src/feed_forward.cpp.obj
+ml_project.exe: CMakeFiles/ml_project.dir/src/matrix/matrix_functions.cpp.obj
+ml_project.exe: CMakeFiles/ml_project.dir/src/matrix/matrix_container.cpp.obj
 ml_project.exe: CMakeFiles/ml_project.dir/build.make
 ml_project.exe: CMakeFiles/ml_project.dir/linkLibs.rsp
 ml_project.exe: CMakeFiles/ml_project.dir/objects1.rsp
 ml_project.exe: CMakeFiles/ml_project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ppako\Documents\projects\ml_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ml_project.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ppako\Documents\projects\ml_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ml_project.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ml_project.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

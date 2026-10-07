@@ -176,53 +176,101 @@ src/feed_forward.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ml_project.dir\build.make CMakeFiles/ml_project.dir/src/feed_forward.cpp.s
 .PHONY : src/feed_forward.cpp.s
 
-src/matrix.obj: src/matrix.cpp.obj
-.PHONY : src/matrix.obj
+src/matrix/matrix.obj: src/matrix/matrix.cpp.obj
+.PHONY : src/matrix/matrix.obj
 
 # target to build an object file
-src/matrix.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ml_project.dir\build.make CMakeFiles/ml_project.dir/src/matrix.cpp.obj
-.PHONY : src/matrix.cpp.obj
+src/matrix/matrix.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ml_project.dir\build.make CMakeFiles/ml_project.dir/src/matrix/matrix.cpp.obj
+.PHONY : src/matrix/matrix.cpp.obj
 
-src/matrix.i: src/matrix.cpp.i
-.PHONY : src/matrix.i
+src/matrix/matrix.i: src/matrix/matrix.cpp.i
+.PHONY : src/matrix/matrix.i
 
 # target to preprocess a source file
-src/matrix.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ml_project.dir\build.make CMakeFiles/ml_project.dir/src/matrix.cpp.i
-.PHONY : src/matrix.cpp.i
+src/matrix/matrix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ml_project.dir\build.make CMakeFiles/ml_project.dir/src/matrix/matrix.cpp.i
+.PHONY : src/matrix/matrix.cpp.i
 
-src/matrix.s: src/matrix.cpp.s
-.PHONY : src/matrix.s
+src/matrix/matrix.s: src/matrix/matrix.cpp.s
+.PHONY : src/matrix/matrix.s
 
 # target to generate assembly for a file
-src/matrix.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ml_project.dir\build.make CMakeFiles/ml_project.dir/src/matrix.cpp.s
-.PHONY : src/matrix.cpp.s
+src/matrix/matrix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ml_project.dir\build.make CMakeFiles/ml_project.dir/src/matrix/matrix.cpp.s
+.PHONY : src/matrix/matrix.cpp.s
 
-src/self_attention_layer.obj: src/self_attention_layer.cpp.obj
-.PHONY : src/self_attention_layer.obj
+src/matrix/matrix_container.obj: src/matrix/matrix_container.cpp.obj
+.PHONY : src/matrix/matrix_container.obj
 
 # target to build an object file
-src/self_attention_layer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ml_project.dir\build.make CMakeFiles/ml_project.dir/src/self_attention_layer.cpp.obj
-.PHONY : src/self_attention_layer.cpp.obj
+src/matrix/matrix_container.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ml_project.dir\build.make CMakeFiles/ml_project.dir/src/matrix/matrix_container.cpp.obj
+.PHONY : src/matrix/matrix_container.cpp.obj
 
-src/self_attention_layer.i: src/self_attention_layer.cpp.i
-.PHONY : src/self_attention_layer.i
+src/matrix/matrix_container.i: src/matrix/matrix_container.cpp.i
+.PHONY : src/matrix/matrix_container.i
 
 # target to preprocess a source file
-src/self_attention_layer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ml_project.dir\build.make CMakeFiles/ml_project.dir/src/self_attention_layer.cpp.i
-.PHONY : src/self_attention_layer.cpp.i
+src/matrix/matrix_container.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ml_project.dir\build.make CMakeFiles/ml_project.dir/src/matrix/matrix_container.cpp.i
+.PHONY : src/matrix/matrix_container.cpp.i
 
-src/self_attention_layer.s: src/self_attention_layer.cpp.s
-.PHONY : src/self_attention_layer.s
+src/matrix/matrix_container.s: src/matrix/matrix_container.cpp.s
+.PHONY : src/matrix/matrix_container.s
 
 # target to generate assembly for a file
-src/self_attention_layer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ml_project.dir\build.make CMakeFiles/ml_project.dir/src/self_attention_layer.cpp.s
-.PHONY : src/self_attention_layer.cpp.s
+src/matrix/matrix_container.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ml_project.dir\build.make CMakeFiles/ml_project.dir/src/matrix/matrix_container.cpp.s
+.PHONY : src/matrix/matrix_container.cpp.s
+
+src/matrix/matrix_functions.obj: src/matrix/matrix_functions.cpp.obj
+.PHONY : src/matrix/matrix_functions.obj
+
+# target to build an object file
+src/matrix/matrix_functions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ml_project.dir\build.make CMakeFiles/ml_project.dir/src/matrix/matrix_functions.cpp.obj
+.PHONY : src/matrix/matrix_functions.cpp.obj
+
+src/matrix/matrix_functions.i: src/matrix/matrix_functions.cpp.i
+.PHONY : src/matrix/matrix_functions.i
+
+# target to preprocess a source file
+src/matrix/matrix_functions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ml_project.dir\build.make CMakeFiles/ml_project.dir/src/matrix/matrix_functions.cpp.i
+.PHONY : src/matrix/matrix_functions.cpp.i
+
+src/matrix/matrix_functions.s: src/matrix/matrix_functions.cpp.s
+.PHONY : src/matrix/matrix_functions.s
+
+# target to generate assembly for a file
+src/matrix/matrix_functions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ml_project.dir\build.make CMakeFiles/ml_project.dir/src/matrix/matrix_functions.cpp.s
+.PHONY : src/matrix/matrix_functions.cpp.s
+
+src/matrix/matrix_operations.obj: src/matrix/matrix_operations.cpp.obj
+.PHONY : src/matrix/matrix_operations.obj
+
+# target to build an object file
+src/matrix/matrix_operations.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ml_project.dir\build.make CMakeFiles/ml_project.dir/src/matrix/matrix_operations.cpp.obj
+.PHONY : src/matrix/matrix_operations.cpp.obj
+
+src/matrix/matrix_operations.i: src/matrix/matrix_operations.cpp.i
+.PHONY : src/matrix/matrix_operations.i
+
+# target to preprocess a source file
+src/matrix/matrix_operations.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ml_project.dir\build.make CMakeFiles/ml_project.dir/src/matrix/matrix_operations.cpp.i
+.PHONY : src/matrix/matrix_operations.cpp.i
+
+src/matrix/matrix_operations.s: src/matrix/matrix_operations.cpp.s
+.PHONY : src/matrix/matrix_operations.s
+
+# target to generate assembly for a file
+src/matrix/matrix_operations.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ml_project.dir\build.make CMakeFiles/ml_project.dir/src/matrix/matrix_operations.cpp.s
+.PHONY : src/matrix/matrix_operations.cpp.s
 
 # Help Target
 help:
@@ -239,12 +287,18 @@ help:
 	@echo ... src/feed_forward.obj
 	@echo ... src/feed_forward.i
 	@echo ... src/feed_forward.s
-	@echo ... src/matrix.obj
-	@echo ... src/matrix.i
-	@echo ... src/matrix.s
-	@echo ... src/self_attention_layer.obj
-	@echo ... src/self_attention_layer.i
-	@echo ... src/self_attention_layer.s
+	@echo ... src/matrix/matrix.obj
+	@echo ... src/matrix/matrix.i
+	@echo ... src/matrix/matrix.s
+	@echo ... src/matrix/matrix_container.obj
+	@echo ... src/matrix/matrix_container.i
+	@echo ... src/matrix/matrix_container.s
+	@echo ... src/matrix/matrix_functions.obj
+	@echo ... src/matrix/matrix_functions.i
+	@echo ... src/matrix/matrix_functions.s
+	@echo ... src/matrix/matrix_operations.obj
+	@echo ... src/matrix/matrix_operations.i
+	@echo ... src/matrix/matrix_operations.s
 .PHONY : help
 
 

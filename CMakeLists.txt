@@ -9,11 +9,16 @@ endif()
 
 add_executable(${PROJECT_NAME}
     main.cpp
-    src/matrix.cpp
-    src/self_attention_layer.cpp 
+
+    src/matrix/matrix.cpp
+    src/matrix/matrix_operations.cpp 
     src/feed_forward.cpp
+    src/matrix/matrix_functions.cpp
+    src/matrix/matrix_iterator.h
+    src/matrix/matrix_container.cpp
     )
 
 target_include_directories(ml_project  PRIVATE
     src
+    src/matrix
     )
