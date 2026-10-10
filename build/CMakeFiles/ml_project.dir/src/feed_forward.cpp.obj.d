@@ -74,35 +74,6 @@ CMakeFiles/ml_project.dir/src/feed_forward.cpp.obj: \
  C:/msys64/mingw64/include/c++/16.1.0/tuple \
  C:/msys64/mingw64/include/c++/16.1.0/bits/invoke.h \
  C:/msys64/mingw64/include/c++/16.1.0/bits/ranges_util.h \
- C:/msys64/mingw64/include/c++/16.1.0/cassert \
- C:/msys64/mingw64/include/assert.h \
- C:/msys64/mingw64/include/c++/16.1.0/stdlib.h \
- C:/msys64/mingw64/include/c++/16.1.0/cstdlib \
- C:/msys64/mingw64/include/stdlib.h \
- C:/msys64/mingw64/include/corecrt_wstdlib.h \
- C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/limits.h \
- C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/syslimits.h \
- C:/msys64/mingw64/include/limits.h \
- C:/msys64/mingw64/include/sec_api/stdlib_s.h \
- C:/msys64/mingw64/include/malloc.h \
- C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/mm_malloc.h \
- C:/msys64/mingw64/include/errno.h \
- C:/msys64/mingw64/include/c++/16.1.0/bits/std_abs.h \
- C:/msys64/mingw64/include/c++/16.1.0/cmath \
- C:/msys64/mingw64/include/math.h \
- C:/msys64/mingw64/include/c++/16.1.0/bits/specfun.h \
- C:/msys64/mingw64/include/c++/16.1.0/tr1/gamma.tcc \
- C:/msys64/mingw64/include/c++/16.1.0/tr1/special_function_util.h \
- C:/msys64/mingw64/include/c++/16.1.0/tr1/bessel_function.tcc \
- C:/msys64/mingw64/include/c++/16.1.0/tr1/beta_function.tcc \
- C:/msys64/mingw64/include/c++/16.1.0/tr1/ell_integral.tcc \
- C:/msys64/mingw64/include/c++/16.1.0/tr1/exp_integral.tcc \
- C:/msys64/mingw64/include/c++/16.1.0/tr1/hypergeometric.tcc \
- C:/msys64/mingw64/include/c++/16.1.0/tr1/legendre_function.tcc \
- C:/msys64/mingw64/include/c++/16.1.0/tr1/modified_bessel_func.tcc \
- C:/msys64/mingw64/include/c++/16.1.0/tr1/poly_hermite.tcc \
- C:/msys64/mingw64/include/c++/16.1.0/tr1/poly_laguerre.tcc \
- C:/msys64/mingw64/include/c++/16.1.0/tr1/riemann_zeta.tcc \
  C:/msys64/mingw64/include/c++/16.1.0/memory \
  C:/msys64/mingw64/include/c++/16.1.0/bits/stl_tempbuf.h \
  C:/msys64/mingw64/include/c++/16.1.0/bits/stl_raw_storage_iter.h \
@@ -118,6 +89,7 @@ CMakeFiles/ml_project.dir/src/feed_forward.cpp.obj: \
  C:/msys64/mingw64/include/corecrt_stdio_config.h \
  C:/msys64/mingw64/include/corecrt_wconio.h \
  C:/msys64/mingw64/include/sec_api/wconio_s.h \
+ C:/msys64/mingw64/include/corecrt_wstdlib.h \
  C:/msys64/mingw64/include/corecrt_wctype.h \
  C:/msys64/mingw64/include/corecrt_wstring.h \
  C:/msys64/mingw64/include/_mingw_locale.h \
@@ -142,11 +114,13 @@ CMakeFiles/ml_project.dir/src/feed_forward.cpp.obj: \
  C:/msys64/mingw64/include/c++/16.1.0/ext/atomicity.h \
  C:/msys64/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/gthr.h \
  C:/msys64/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/gthr-default.h \
- C:/msys64/mingw64/include/pthread.h \
+ C:/msys64/mingw64/include/pthread.h C:/msys64/mingw64/include/errno.h \
  C:/msys64/mingw64/include/sys/types.h \
  C:/msys64/mingw64/include/process.h \
  C:/msys64/mingw64/include/corecrt_startup.h \
- C:/msys64/mingw64/include/signal.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/limits.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/syslimits.h \
+ C:/msys64/mingw64/include/limits.h C:/msys64/mingw64/include/signal.h \
  C:/msys64/mingw64/include/pthread_signal.h \
  C:/msys64/mingw64/include/time.h C:/msys64/mingw64/include/sys/timeb.h \
  C:/msys64/mingw64/include/sec_api/sys/timeb_s.h \
@@ -165,6 +139,13 @@ CMakeFiles/ml_project.dir/src/feed_forward.cpp.obj: \
  C:/msys64/mingw64/include/c++/16.1.0/string_view \
  C:/msys64/mingw64/include/c++/16.1.0/bits/string_view.tcc \
  C:/msys64/mingw64/include/c++/16.1.0/ext/string_conversions.h \
+ C:/msys64/mingw64/include/c++/16.1.0/cstdlib \
+ C:/msys64/mingw64/include/stdlib.h \
+ C:/msys64/mingw64/include/sec_api/stdlib_s.h \
+ C:/msys64/mingw64/include/c++/16.1.0/stdlib.h \
+ C:/msys64/mingw64/include/malloc.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/mm_malloc.h \
+ C:/msys64/mingw64/include/c++/16.1.0/bits/std_abs.h \
  C:/msys64/mingw64/include/c++/16.1.0/cstdio \
  C:/msys64/mingw64/include/c++/16.1.0/cerrno \
  C:/msys64/mingw64/include/c++/16.1.0/bits/charconv.h \
@@ -199,4 +180,23 @@ CMakeFiles/ml_project.dir/src/feed_forward.cpp.obj: \
  C:/msys64/mingw64/include/c++/16.1.0/bits/ranges_uninitialized.h \
  C:/msys64/mingw64/include/c++/16.1.0/bits/ranges_algobase.h \
  C:/msys64/mingw64/include/c++/16.1.0/pstl/glue_memory_defs.h \
- C:/msys64/mingw64/include/c++/16.1.0/pstl/execution_defs.h
+ C:/msys64/mingw64/include/c++/16.1.0/pstl/execution_defs.h \
+ C:/msys64/mingw64/include/c++/16.1.0/cassert \
+ C:/msys64/mingw64/include/assert.h \
+ C:/msys64/mingw64/include/c++/16.1.0/cmath \
+ C:/msys64/mingw64/include/math.h \
+ C:/msys64/mingw64/include/c++/16.1.0/bits/specfun.h \
+ C:/msys64/mingw64/include/c++/16.1.0/tr1/gamma.tcc \
+ C:/msys64/mingw64/include/c++/16.1.0/tr1/special_function_util.h \
+ C:/msys64/mingw64/include/c++/16.1.0/tr1/bessel_function.tcc \
+ C:/msys64/mingw64/include/c++/16.1.0/tr1/beta_function.tcc \
+ C:/msys64/mingw64/include/c++/16.1.0/tr1/ell_integral.tcc \
+ C:/msys64/mingw64/include/c++/16.1.0/tr1/exp_integral.tcc \
+ C:/msys64/mingw64/include/c++/16.1.0/tr1/hypergeometric.tcc \
+ C:/msys64/mingw64/include/c++/16.1.0/tr1/legendre_function.tcc \
+ C:/msys64/mingw64/include/c++/16.1.0/tr1/modified_bessel_func.tcc \
+ C:/msys64/mingw64/include/c++/16.1.0/tr1/poly_hermite.tcc \
+ C:/msys64/mingw64/include/c++/16.1.0/tr1/poly_laguerre.tcc \
+ C:/msys64/mingw64/include/c++/16.1.0/tr1/riemann_zeta.tcc \
+ C:/Users/ppako/Documents/projects/ml_project/src/matrix/matrix_view.h \
+ C:/Users/ppako/Documents/projects/ml_project/src/matrix/matrix.h

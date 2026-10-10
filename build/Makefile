@@ -272,6 +272,30 @@ src/matrix/matrix_operations.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ml_project.dir\build.make CMakeFiles/ml_project.dir/src/matrix/matrix_operations.cpp.s
 .PHONY : src/matrix/matrix_operations.cpp.s
 
+src/matrix/matrix_view.obj: src/matrix/matrix_view.cpp.obj
+.PHONY : src/matrix/matrix_view.obj
+
+# target to build an object file
+src/matrix/matrix_view.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ml_project.dir\build.make CMakeFiles/ml_project.dir/src/matrix/matrix_view.cpp.obj
+.PHONY : src/matrix/matrix_view.cpp.obj
+
+src/matrix/matrix_view.i: src/matrix/matrix_view.cpp.i
+.PHONY : src/matrix/matrix_view.i
+
+# target to preprocess a source file
+src/matrix/matrix_view.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ml_project.dir\build.make CMakeFiles/ml_project.dir/src/matrix/matrix_view.cpp.i
+.PHONY : src/matrix/matrix_view.cpp.i
+
+src/matrix/matrix_view.s: src/matrix/matrix_view.cpp.s
+.PHONY : src/matrix/matrix_view.s
+
+# target to generate assembly for a file
+src/matrix/matrix_view.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ml_project.dir\build.make CMakeFiles/ml_project.dir/src/matrix/matrix_view.cpp.s
+.PHONY : src/matrix/matrix_view.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -299,6 +323,9 @@ help:
 	@echo ... src/matrix/matrix_operations.obj
 	@echo ... src/matrix/matrix_operations.i
 	@echo ... src/matrix/matrix_operations.s
+	@echo ... src/matrix/matrix_view.obj
+	@echo ... src/matrix/matrix_view.i
+	@echo ... src/matrix/matrix_view.s
 .PHONY : help
 
 

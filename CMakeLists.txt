@@ -16,6 +16,8 @@ add_executable(${PROJECT_NAME}
     src/matrix/matrix_functions.cpp
     src/matrix/matrix_iterator.h
     src/matrix/matrix_container.cpp
+    src/matrix/matrix_view.h
+    src/matrix/matrix_view.cpp
     )
 
 target_include_directories(ml_project  PRIVATE

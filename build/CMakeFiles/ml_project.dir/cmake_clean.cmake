@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ml_project.dir/src/matrix/matrix_functions.cpp.obj.d"
   "CMakeFiles/ml_project.dir/src/matrix/matrix_operations.cpp.obj"
   "CMakeFiles/ml_project.dir/src/matrix/matrix_operations.cpp.obj.d"
+  "CMakeFiles/ml_project.dir/src/matrix/matrix_view.cpp.obj"
+  "CMakeFiles/ml_project.dir/src/matrix/matrix_view.cpp.obj.d"
   "libml_project.dll.a"
   "ml_project.exe"
   "ml_project.exe.manifest"

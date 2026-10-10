@@ -34,5 +34,11 @@
   "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles\\ml_project.dir\\includes_CXX.rsp -g -o CMakeFiles\\ml_project.dir\\src\\matrix\\matrix_container.cpp.obj -c C:\\Users\\ppako\\Documents\\projects\\ml_project\\src\\matrix\\matrix_container.cpp",
   "file": "C:/Users/ppako/Documents/projects/ml_project/src/matrix/matrix_container.cpp",
   "output": "CMakeFiles/ml_project.dir/src/matrix/matrix_container.cpp.obj"
+},
+{
+  "directory": "C:/Users/ppako/Documents/projects/ml_project/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles\\ml_project.dir\\includes_CXX.rsp -g -o CMakeFiles\\ml_project.dir\\src\\matrix\\matrix_view.cpp.obj -c C:\\Users\\ppako\\Documents\\projects\\ml_project\\src\\matrix\\matrix_view.cpp",
+  "file": "C:/Users/ppako/Documents/projects/ml_project/src/matrix/matrix_view.cpp",
+  "output": "CMakeFiles/ml_project.dir/src/matrix/matrix_view.cpp.obj"
 }
 ]
